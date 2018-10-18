@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/hip-square.png);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    width: full;
+    height: 175px;
+    padding: 5px;
+    background-color: darkgrey;
+    border-bottom: solid 2px black;
+}
+
+.icon {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 5px 150px 20px 150px;
+    border: solid black 1px;
+}
+
+.header {
+    float: none;
+    margin: 60px 10px;
+    padding: 5px;
+    font-size: 30px;
+    color: oldlace;
+}
+
+.inst {
+    font-size: 24px;
+}
+
+.wins {
+    font-size: 20px;
+}

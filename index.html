@@ -5,23 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <script src="./assets/javascript/game.js"></script>
     <title>Board Game Hangman</title>
 </head>
 
 <body>
-    <img src="./assets/images/scrabble board.jpg" alt="game board" />
-    <h1>Board Game Hangman Game</h1>
-    <img src="./assets/images/monopoly man.png" alt="monopoly man" />
+    <div class="top">
+        <img class="icon" src="./assets/images/monopoly man.png" alt="monopoly man" />
+        <h1 class="header">Board Game Hangman Game</h1>
+    </div>
     <br>
-    <h2>Press any key to get started!</h2>
+    <h2 class="inst">Press any key to get started!</h2>
     <br>
-    <h2>Wins:</h2>
+    <h2 class="wins">Wins:</h2>
     <br>
     <br>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>_ _ _ _ _ _</p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <p>Number of Guesses Remaining: </p>
+                </div>
+                <div class="row">
+                    <p>Already Guessed:</p>
+                    <p>_ , _ , _ , _ , _ , _ , _ , _</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
